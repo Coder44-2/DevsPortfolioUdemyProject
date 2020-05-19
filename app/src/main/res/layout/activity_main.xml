@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="108dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/devslopesprofilelogo" />
@@ -31,35 +31,52 @@
         android:id="@+id/devslopsesTxtFld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="152dp"
         android:text="Devslopes"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/devslopseLogo"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/cameraImgVw"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        app:srcCompat="@drawable/camerabutton"
-        tools:layout_editor_absoluteX="466dp"
-        tools:layout_editor_absoluteY="132dp" />
-
-    <ImageView
         android:id="@+id/starImgVw"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        app:srcCompat="@drawable/favoritebutton"
-        tools:layout_editor_absoluteX="536dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cameraImgVw"
+        app:layout_constraintEnd_toStartOf="@+id/inboxImgVw"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cameraImgVw"
+        app:layout_constraintTop_toTopOf="@+id/cameraImgVw"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/favoritebutton" />
+
+    <ImageView
+        android:id="@+id/cameraImgVw"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toStartOf="@+id/starImgVw"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/devslopsesTxtFld"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camerabutton" />
 
     <ImageView
         android:id="@+id/inboxImgVw"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        app:srcCompat="@drawable/inboxbutton"
-        tools:layout_editor_absoluteX="613dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/starImgVw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/starImgVw"
+        app:layout_constraintTop_toTopOf="@+id/starImgVw"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/inboxbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
