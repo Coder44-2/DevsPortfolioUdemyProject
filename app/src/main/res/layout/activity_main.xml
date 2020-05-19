@@ -54,4 +54,12 @@
         app:srcCompat="@drawable/favoritebutton"
         tools:layout_editor_absoluteX="536dp"
         tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:id="@+id/inboxImgVw"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/inboxbutton"
+        tools:layout_editor_absoluteX="613dp"
+        tools:layout_editor_absoluteY="132dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
