@@ -82,4 +82,14 @@
         app:layout_constraintTop_toTopOf="@+id/starImgVw"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/inboxbutton" />
+
+    <ImageView
+        android:id="@+id/codeImgVw"
+        android:layout_width="125dp"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/codeimage"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="225dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
