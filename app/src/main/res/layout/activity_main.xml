@@ -12,6 +12,7 @@
         android:layout_height="120dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/devslopesbanner" />
@@ -20,11 +21,11 @@
         android:id="@+id/devslopseLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/banner"
         app:srcCompat="@drawable/devslopesprofilelogo" />
 
     <TextView
@@ -33,11 +34,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="27dp"
         android:text="Devslopes"
         android:textSize="24sp"
         app:layout_constraintStart_toEndOf="@+id/devslopseLogo"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
 
     <ImageView
         android:id="@+id/starImgVw"
@@ -61,17 +62,19 @@
         android:layout_height="40dp"
         android:layout_marginStart="130dp"
         android:layout_marginLeft="130dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="27dp"
         app:layout_constraintEnd_toStartOf="@+id/starImgVw"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@+id/devslopsesTxtFld"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
         app:srcCompat="@drawable/camerabutton" />
 
     <ImageView
         android:id="@+id/inboxImgVw"
         android:layout_width="50dp"
         android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/starImgVw"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
