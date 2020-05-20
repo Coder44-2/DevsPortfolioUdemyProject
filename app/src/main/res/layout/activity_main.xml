@@ -101,4 +101,13 @@
         tools:layout_editor_absoluteX="194dp"
         tools:layout_editor_absoluteY="226dp" />
 
+    <ImageView
+        android:id="@+id/imageImgVw"
+        android:layout_width="125dp"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/imagesimage"
+        tools:layout_editor_absoluteX="376dp"
+        tools:layout_editor_absoluteY="226dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
