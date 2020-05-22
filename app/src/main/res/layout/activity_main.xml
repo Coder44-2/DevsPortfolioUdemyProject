@@ -42,29 +42,19 @@
 
     <ImageView
         android:id="@+id/cameraImgVw"
-<<<<<<< HEAD
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="27dp"
-=======
+
         android:layout_width="44dp"
         android:layout_height="48dp"
         android:layout_marginStart="45dp"
         android:layout_marginLeft="45dp"
         app:layout_constraintBottom_toBottomOf="@+id/starImgVw"
->>>>>>> threeMoreImageViews
         app:layout_constraintEnd_toStartOf="@+id/starImgVw"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@+id/devslopsesTxtFld"
-<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/banner"
-=======
         app:layout_constraintTop_toTopOf="@+id/starImgVw"
         app:layout_constraintVertical_bias="0.0"
->>>>>>> threeMoreImageViews
         app:srcCompat="@drawable/camerabutton" />
 
     <ImageView
@@ -83,27 +73,19 @@
 
     <ImageView
         android:id="@+id/inboxImgVw"
-<<<<<<< HEAD
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        app:layout_constraintBottom_toBottomOf="@+id/starImgVw"
-=======
         android:layout_width="44dp"
         android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="143dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
->>>>>>> threeMoreImageViews
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/starImgVw"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/inboxbutton" />
 
-<<<<<<< HEAD
+
     <ImageView
         android:id="@+id/codeImgVw"
         android:layout_width="0dp"
@@ -158,6 +140,4 @@
         app:layout_constraintTop_toTopOf="@+id/imageImgVw"
         app:srcCompat="@drawable/videosimage" />
 
-=======
->>>>>>> threeMoreImageViews
 </androidx.constraintlayout.widget.ConstraintLayout>
